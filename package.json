@@ -2,8 +2,9 @@
   "name": "ticket-manager-tarunbalaji3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "ticket-manager.js",
   "scripts": {
+    "watch": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,13 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15",
     "prettier": "^2.6.0"
+  },
+  "nodemonConfig": {
+    "delay": 3000
+  },
+  "events": {
+    "start": "cls || clear"
   }
 }
