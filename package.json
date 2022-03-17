@@ -2,9 +2,9 @@
   "name": "ticket-manager-tarunbalaji3",
   "version": "1.0.0",
   "description": "",
-  "main": "ticket-manager.js",
+  "main": "firstListener.js",
   "scripts": {
-    "watch": "nodemon",
+    "watch": "nodemon ./firstListener.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,5 +31,8 @@
   },
   "events": {
     "start": "cls || clear"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
