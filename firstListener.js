@@ -16,4 +16,3 @@ ticketManager.once("buy", () => {
 
 ticketManager.buy("test@email.com", 20);
 ticketManager.buy("test@email.com", 20);
-ticketManager.buy("test@email.com", 20);
